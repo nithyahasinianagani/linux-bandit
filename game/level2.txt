@@ -1,0 +1,11 @@
+PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
+
+a dashed filename refers to a file or directory whose name begins with a dash (-) or double dash (--)
+
+Use the ./ Path Prefix 
+(Highly Recommended)Prepending the filename with ./ indicates that the file is located within the current directory.
+
+Use the -- Delimiter
+Read a file: cat -- -myfile
+Create a file: touch -- -myfile
+Delete a file: rm -- -myfile

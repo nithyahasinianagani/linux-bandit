@@ -1,0 +1,9 @@
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+ssh                         → Secure Shell connection
+bandit0                     → username
+@bandit.labs.overthewire.org → server/hostname
+-p 2220                     → connect through port 2220
+
+
+password bandit0
