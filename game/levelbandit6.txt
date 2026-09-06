@@ -1,0 +1,10 @@
+find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+
+find /              → search the entire server
+-type f             → look only for files
+-user bandit7       → owned by user bandit7
+-group bandit6      → owned by group bandit6
+-size 33c           → exactly 33 bytes
+2>/dev/null         → hide "Permission denied" errors
+
+Bmnnvf82KzQlfxgAI2d1zYbr1u9pr3E3

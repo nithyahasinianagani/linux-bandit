@@ -1,0 +1,6 @@
+Find the human-readable one
+file ./*
+
+The one saying ASCII text (or similar human-readable text) is the file containing the password.
+
+cat ./-file

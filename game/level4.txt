@@ -1,0 +1,5 @@
+Find the hidden file:  ls -a
+View the file: Run cat with the dot included
+cat .hiddenfile
+
+xzTXq1rDJQVVAzdv5cHq1TQytTWufAMq

@@ -1,0 +1,11 @@
+What does grep mean?
+grep millionth data.txt
+
+means:
+
+"Look inside data.txt and show me the line containing the word millionth."
+
+So you don't need to manually search through potentially a million lines. 😭
+
+
+VR1ljMayciFxbnUokuQmJFw6QC9VKtub

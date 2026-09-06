@@ -1,0 +1,15 @@
+data.txt contains many lines, and the password is the only line that appears exactly once.
+
+sort data.txt | uniq -u
+
+
+why sort?
+Because uniq only works properly when duplicate lines are next to each other
+
+uniq -u
+
+removes lines that have duplicates and leaves:
+uniq detects adjacent duplicate lines, so sort is usually needed first when the duplicates aren't already grouped together.
+The | is called a pipe. It lets you take the output of one command and send it directly into another command.
+
+EjmOSvuAu7sGAHqHVcBDPirRe9T03kxl

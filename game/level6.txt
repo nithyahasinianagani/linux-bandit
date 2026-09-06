@@ -1,0 +1,18 @@
+inhere/
+├── maybehere00/
+│   ├── file1
+│   └── file2
+├── maybehere01/
+│   └── another/
+│       └── target
+└── maybehere02/
+
+so using ls -la is not a great idea so we are using Find
+
+find . -type f -size 1033c
+find .          → search from the current directory
+-type f         → only files
+-size 1033c     → exactly 1033 bytes
+
+
+pXa26xhMWaC2SvDotA4r9EgZkulOeSBW
